@@ -1,0 +1,26 @@
+{
+    "dataset": "ukraine_enrollment_gdp.csv",
+    "source": "World Bank World Development Indicators (UN education data and GDP per capita)",
+    "columns": [
+        {
+            "name": "Country",
+            "type": "string",
+            "description": "Country name (Ukraine)"
+        },
+        {
+            "name": "Year",
+            "type": "integer",
+            "description": "Calendar year, 2001-2020"
+        },
+        {
+            "name": "Primary Enrollment",
+            "type": "integer",
+            "description": "Number of pupils enrolled in primary education (SE.PRM.ENRL)"
+        },
+        {
+            "name": "GDP per Capita (current US$)",
+            "type": "float",
+            "description": "Gross domestic product divided by midyear population, in current US dollars (NY.GDP.PCAP.CD)"
+        }
+    ]
+}
